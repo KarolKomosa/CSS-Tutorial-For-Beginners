@@ -6,3 +6,13 @@ p{
   line-height: 2 em; 
   font-size: 14 px;
 }
+div{
+  border: 1px solid #5D6063;
+  border-color: red;
+  background-color: bisque;
+  text-align: center;
+  padding: 50px;
+  width: 400px;
+  height: 100px;
+  margin: 50px;
+}
