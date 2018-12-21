@@ -1,18 +1,21 @@
-body {
-  background-color: darkgray
+#klik{
+width: 100px;
+padding: 12px;
+border: 1px solid #77aaaa;
+font-family: arial;
+font-weight: bold;
+color:fff;
+font-size: 14px;
+text-align: center;
+border-radius: 4px;
+background: #aadddd;
+background: -webkit-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);
 }
-p{
-  margin-bottom: 32px;
-  line-height: 2 em; 
-  font-size: 14 px;
+#klik:hover{
+  background: #77aaaa;
+  background:linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+  background: -webkit-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
 }
-div{
-  border: 1px solid #5D6063;
-  border-color: red;
-  background-color: bisque;
-  text-align: center;
-  padding: 50px;
-  width: 400px;
-  height: 100px;
-  margin: 50px;
-}
+
+
